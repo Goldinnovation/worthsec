@@ -1,0 +1,243 @@
+body{
+    background-color: rgb(78, 114, 114);
+}
+
+
+
+/* Navbar area + content */
+.nav_area{
+    
+    display: flex;
+    justify-content: space-between;
+    height:35px;
+    margin-top: 50px; 
+    align-items: center;   
+}
+
+.nav_content{
+    background-color: rgb(144, 137, 137);
+    width: 350px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black; 
+    border-radius: 25px;
+    margin-right: 120px; 
+    align-items: center;
+}
+
+.profil-image{
+
+    background-color:gray; 
+    border: 1px solid black; 
+    height: 50p;
+    font-size: 25px;
+    border-radius: 50px;
+    margin-left: 120px;
+}
+
+
+.middle-area{
+    background-color: rgb(59, 147, 171);   
+    
+}
+
+.middle_content{
+    background-color: rgba(111, 134, 107, 0.617);
+    width: 90%;
+    height: 80%;
+    border: 1px solid black; 
+    border-radius:30px;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    
+}
+
+.create-btn{
+    align-items: center;
+    text-align: center;
+        
+    
+    }
+    
+    .add-btn{ 
+    
+        position: absolute;
+        bottom: 0;
+        
+    }
+    
+    .trybtn{
+        background-color: red;
+    }
+
+
+/* inside Pop up btn  */
+
+
+.Modal{
+   
+    
+    display: flex;
+    height: 00px;
+    width: 500px;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    background-color: red;
+
+   }
+
+   .overlay{
+    background: none;
+   }
+
+   .modal-content{
+    background-color: rgb(212, 212, 212);
+    width: 600px;
+    height: 430px;
+    margin: 0px;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+    border: 1px solid rgb(18, 18, 18);
+    
+    
+    
+    
+   }
+
+   .title-area{
+        display: flex; 
+        justify-content: center;
+        
+        border-bottom: 1px solid;
+   }
+
+
+   .Close-btn{
+        background: none ;
+        display: flex;
+        justify-content: flex-start;
+        border: none;
+        color: rgb(171, 7, 7);
+        margin-top: 5px;
+   }
+
+
+   .close-btn-area{
+    display: flex;
+    justify-content: flex-end;
+
+   }
+
+   /* area of title name and checkbox options */
+   .option-area{
+    display: flex;
+   
+    justify-content: space-around;
+    
+    
+   }
+   .optitlet-area{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid;
+    
+   }
+   .titleName{
+    width: 50%;
+    height: 25%;
+    margin-left: 4px;
+    border: 1px solid rgb(11, 11, 11);
+    background-color: rgb(255, 255, 255);
+    
+   }
+
+   .selecopt-area{
+    
+    width: 300px;
+   
+    
+   }
+
+   	.check-container-area{
+      
+        display: flex;
+        justify-content: space-between;
+       
+    }
+
+    /* middle area of color and image  */
+
+    .prompt-color-area{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border-top: 1px solid;
+     margin: 0px;
+     
+     
+     
+    }
+
+    .image-area{
+     margin: 0px;
+     display: flex;
+     margin-left: 10px;
+     width: 380px;
+     height: 80px;
+     align-items: center;
+     border-right: 1px solid;
+   
+     
+    }
+
+    .imagePrompt{
+     width: 250%;
+     height: 20px;
+     margin-left: 1%;
+     margin-right: 5px;
+    }
+
+    .colorOpt{
+     height: 25px;
+     width: 120px;
+     margin-right: 5%;
+
+    }
+
+    .decripTxt{
+      
+      height: 130px;
+      margin: 0px;
+     margin-block-start: 0px;
+     border-top: 1px solid;
+    }
+
+    .descripfield{
+     width: 500px;
+     height: 60px;
+    }
+
+
+    .contentSection{
+       
+       
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        margin: 20px;
+        
+    }
+
+    .content-area{
+        display: flex;
+        border: 1px solid black 
+
+    }
