@@ -33,14 +33,18 @@ const DisplayObj = async() => {
          {createdObj.map((t,i) => (
             <section className="newSection">
                 <div key={i} className="content-area">
-                <div className='name-area'>
-                    <Link href={`api/createAdd/${t._id}`}>
-                    <h2 className='title-name'>{t.titleName}</h2>
-                    </Link>
-                    <div>
-                     {t.descripfield}
+                    <Link className="added-obj" href={`api/createAdd/${t._id}`}>
+                    <div className='img-area'>
+                    <div className='added-title-content'> 
+                    <h2 className='added-title-name'>{t.titleName}</h2>
                     </div>
-                </div>  
+                    </div>  
+                    </Link>
+                
+                    {/* <div className='description-field'>
+                     {t.descripfield}
+                    </div> */}
+                
             </div>
             </section>
             

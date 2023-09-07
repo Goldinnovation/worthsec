@@ -5,29 +5,32 @@ import HomeIcon from '@assets/home.png'
 import PoolIcon from '@assets/pool.png'
 import JobIcon from '@assets/job.png'
 import EmailIcon from '@assets/email.png'
-import EbbyImg from '@assets/ebby.png'
+import ProImage from '@assets/ebby.png'
 
 
 const Nav = () => {
   return (
     <>
+    
      <section className="nav_area">
       <div className='profil-image'>
-        <Image src={EbbyImg} alt='Profil Image' className='Pro-Image' height={100} width={100} />
+        <Image src={ProImage} alt='Profil Image' className='ProImage' height={100} width={100} />
       </div>
 
+      <div className='website-title'><h2>WORTHSEC</h2></div>
+      
        <nav className="nav_content">
        <Link href={'/'}>
-          <Image src={HomeIcon} alt='Home Icon' className='HomeIcon'/>
+          <Image src={HomeIcon} alt='Home Icon' className='HomeIcon' height={35} width={35} />
        </Link>
        <Link href={'/pool'}>
-          <Image src={PoolIcon} alt='Pool Icon' className='PoolIcon'/>
+          <Image src={PoolIcon} alt='Pool Icon' className='PoolIcon'  height={35} width={35}/>
         </Link>
        <Link href={'/job'}>
-          <Image src={JobIcon} alt='Job Icon ' className='JobIcon'/>
+          <Image src={JobIcon} alt='Job Icon ' className='JobIcon'  height={35} width={35}/>
        </Link>
        <Link href={'/settings'}>
-         <Image src={EmailIcon} alt='Email Icon' className='EmailIcon'/>
+         <Image src={EmailIcon} alt='Email Icon' className='EmailIcon'  height={35} width={35}/>
        </Link>
        </nav>
       </section>

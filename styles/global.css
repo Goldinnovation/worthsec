@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(78, 114, 114);
+    background-color: rgb(11, 11, 11);
 }
 
 
@@ -14,28 +14,33 @@ body{
     align-items: center;   
 }
 
+.website-title{
+    
+    color: white;
+    font-size: 30px;
+    margin-left: 26%;
+}
+
 .nav_content{
-    background-color: rgb(144, 137, 137);
-    width: 350px;
-    height: 40px;
+    background-color: rgb(19, 19, 19);
+    width: 550px;
+    height: 55px;
     display: flex;
     justify-content: space-around;
-    border: 1px solid black; 
+    border: 1px solid rgb(255, 255, 255); 
     border-radius: 25px;
     margin-right: 120px; 
     align-items: center;
 }
 
-.profil-image{
 
-    background-color:gray; 
-    border: 1px solid black; 
-    height: 50p;
-    font-size: 25px;
+.ProImage{
     border-radius: 50px;
-    margin-left: 120px;
+    margin-left: 200%;
 }
 
+
+/* middle area */
 
 .middle-area{
     background-color: rgb(59, 147, 171);   
@@ -43,15 +48,16 @@ body{
 }
 
 .middle_content{
-    background-color: rgba(111, 134, 107, 0.617);
+    background-color: rgba(0, 0, 0, 0.617);
     width: 90%;
     height: 80%;
-    border: 1px solid black; 
+    border: 1px solid rgb(255, 255, 255); 
     border-radius:30px;
     position: absolute;
     top: 50%;
     left: 50%; 
     transform: translate(-50%, -50%);
+    
     
 }
 
@@ -66,7 +72,19 @@ body{
     
         position: absolute;
         bottom: 0;
+        background: none;
+        border: 1px solid white;
+        height: 80px;
+        width: 80px;
+        border-radius: 50px;
+        color: white;
+        margin-bottom: 2%;
+        font-size: 40px;
         
+    }
+    
+    .add-btn:hover{
+        background-color: rgba(167, 234, 255, 0.322);
     }
     
     .trybtn{
@@ -77,19 +95,6 @@ body{
 /* inside Pop up btn  */
 
 
-.Modal{
-   
-    
-    display: flex;
-    height: 00px;
-    width: 500px;
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%,-50%);
-    background-color: red;
-
-   }
 
    .overlay{
     background: none;
@@ -100,6 +105,7 @@ body{
     width: 600px;
     height: 430px;
     margin: 0px;
+    margin-left: 40px;
     position: absolute;
     top: 50%; 
     left: 50%; 
@@ -236,8 +242,43 @@ body{
         
     }
 
-    .content-area{
-        display: flex;
-        border: 1px solid black 
+    
 
+    .img-area{
+
+        background-color: rgb(99, 13, 13);
+        border: 1px solid black;
+        border-radius: 15px;
+        
+
+        width: 250px;
+        height: 180px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: center;
+
+    }
+
+    .added-title-content{
+
+       border-top: 1px solid black;
+       height: 60px;
+       
+    }
+
+    .added-obj{
+        text-decoration: none;
+    }
+
+    .added-title-name{
+        font-size: 20px;
+        color: rgb(231, 227, 227);
+    }
+
+    .description-field{
+        
+        border: 1px solid black;
+        
+        
     }

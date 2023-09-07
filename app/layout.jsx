@@ -13,7 +13,9 @@ const Rootlayout = ({children}) => {
       <body>
       <Nav/>
         {children}
+    
       </body>
+      
     </html>
        
     </>

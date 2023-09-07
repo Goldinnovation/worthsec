@@ -17,6 +17,8 @@ const Addbtn = () => {
         colorOpt: "",
         descripfield: ""
     })
+
+    const [imageData, setImageData] = useState()
     
     const router = new useRouter()
 
@@ -52,6 +54,8 @@ const Addbtn = () => {
             })
 
             
+
+            
             router.refresh();
             togglemodel();
            
@@ -64,6 +68,8 @@ const Addbtn = () => {
         }
 
     };
+
+
 
 
     

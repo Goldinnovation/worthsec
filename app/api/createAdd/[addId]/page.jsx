@@ -37,7 +37,6 @@ export default async function addpage({params}){
 
     const paramId = params.addId
     const {getId}= await getAdd(paramId);
-    console.log(getId)
     
     
 

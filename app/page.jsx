@@ -8,7 +8,7 @@ function page() {
     <div>
        
        <Middle/>
-      
+       
     </div>
   )
 }

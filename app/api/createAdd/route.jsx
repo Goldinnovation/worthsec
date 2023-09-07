@@ -16,9 +16,19 @@ export async function GET(){
 
 export async function POST(request){
     const body = await request.json()
-   
+    console.log(body.imagePrompt)
     await connectMongo(); 
     await CreateObj.create(body);
+    
+    if(request.method === 'POST'){
+        try{
+            const res = await fetch()
+        }catch(error){
+
+        }
+    }
+
+
 
     
     return NextResponse.json({result:'succesfull req', succes:true}, {status:201})
