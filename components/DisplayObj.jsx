@@ -16,17 +16,21 @@ export async function getInput(){
 
         
         const data = await res.json()
-               
+        
         return data
     }catch (error){
         console.error('Error on catch the GET ')
     }
+
 }
+
+
    
 
 const DisplayObj = async() => {
-    const {createdObj} = await getInput(); 
+    const {createdObj} = await getInput();
     
+      
 
   return (
     <div className="contentSection">

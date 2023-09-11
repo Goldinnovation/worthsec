@@ -1,6 +1,8 @@
 import React from 'react'
 
-const GetCover = () => {
+
+
+const config = async() => {
   return (
     <div>
       
@@ -8,4 +10,4 @@ const GetCover = () => {
   )
 }
 
-export default GetCover
+export default config
