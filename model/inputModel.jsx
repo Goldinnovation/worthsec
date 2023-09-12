@@ -9,6 +9,7 @@ const CreateObjShema = new Schema({
         imagePrompt: {type: String},
         colorOpt: {type: String},
         descripfield: {type: String},
+        imageName: {type: String}
 })
 
 const CreateObj = models.CreateObj || model('CreateObj', CreateObjShema)

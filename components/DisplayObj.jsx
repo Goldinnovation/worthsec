@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-
+import Image from 'next/image'
 
 export async function getInput(){
     try{
@@ -39,6 +39,7 @@ const DisplayObj = async() => {
                 <div key={i} className="content-area">
                     <Link className="added-obj" href={`api/createAdd/${t._id}`}>
                     <div className='img-area'>
+                        <Image src={`/imgCover/${t.imageName}`} className='img-cover'  width={350} height={200} alt='Cover of Job ad'/>
                     <div className='added-title-content'> 
                     <h2 className='added-title-name'>{t.titleName}</h2>
                     </div>
